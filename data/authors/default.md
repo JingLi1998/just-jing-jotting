@@ -29,7 +29,7 @@ Interested in working with me? Here is a quick run-down of my areas of expertise
 - AWS, Linode, Heroku
 - Github, Bitbucket
 
-Looking for something real niche? Here are some of my interests in some more niche fields:
+Looking for something real niche? Here are some of my interests in some lesser known fields:
 
 ##### Functional Programming
 
