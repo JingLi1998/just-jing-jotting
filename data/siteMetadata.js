@@ -5,7 +5,7 @@ const siteMetadata = {
   description:
     'A place to read about both my common-sense and non-sensical jots related to coding.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://www.just-jing-jotting.com',
   siteRepo: 'https://github.com/JingLi1998/just-jing-jotting',
   siteLogo: '/static/images/logo.png',
