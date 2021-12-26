@@ -39,7 +39,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
                     <dl>
                       <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-moonlight-lightred">
                         <time dateTime={date}>{formatDate(date)}</time>
                       </dd>
                     </dl>
@@ -49,7 +49,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="text-gray-900 dark:text-moonlight-lightred"
                             >
                               {title}
                             </Link>
@@ -60,14 +60,14 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
                             ))}
                           </div>
                         </div>
-                        <div className="prose text-gray-500 max-w-none dark:text-gray-400">
+                        <div className="prose text-gray-500 max-w-none dark:text-gray-100">
                           {summary}
                         </div>
                       </div>
                       <div className="text-base font-medium leading-6">
                         <Link
                           href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                          className="text-moonlight-green-900 hover:text-moonlight-green-800 dark:text-moonlight-green-500 dark:hover:text-moonlight-green-600"
                           aria-label={`Read "${title}"`}
                         >
                           Read more &rarr;

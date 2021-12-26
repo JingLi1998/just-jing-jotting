@@ -152,7 +152,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
               <div className="pt-4 xl:pt-8">
                 <Link
                   href="/blog"
-                  className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+                  className="text-moonlight-green-900 hover:text-moonlight-green-800 dark:text-moonlight-green-500 dark:hover:text-moonlight-green-600"
                 >
                   &larr; Back to the blog
                 </Link>
