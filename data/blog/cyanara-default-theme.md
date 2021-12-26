@@ -93,7 +93,7 @@ As an additional note, I've slightly manipulated the object and naming to better
 
 ## Super Secret Theming Hack
 
-If you're not too well-versed in how to create a nice theme, I've got a neat little tip for you! It's called a shade generator. Basically, when working with designated colour palette, there is no absolute need to mix all your colours together in one go. In fact that will probably result in a pretty terrible looking website. Instead, pick a small subset of colours from the main pallette, and use light and darker shades to design your UI.
+If you're not too well-versed in how to create a nice theme, I've got a neat little tip for you! It's called a shade generator. Basically, when working with designated colour palette, there is no absolute need to mix all your colours together in one go. In fact that will probably result in a pretty terrible looking website. Instead, pick a small subset of colours from the main palette, and use light and darker shades to design your UI.
 
 You'll see this already in libraries such as Tailwind where you have shades of a colour from `100, 200 ..., 900`. I'm a big fan of this system, so I simply use a website called [Tailwind Shades Generator](https://www.tailwindshades.com/) to generate shades for the colours. Here is a quick example:
 
