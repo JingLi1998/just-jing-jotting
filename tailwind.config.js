@@ -139,7 +139,7 @@ module.exports = {
               '&:hover': {
                 color: theme('colors.moonlight.green.800'),
               },
-              code: { color: theme('colors.moonlight.green.400') },
+              code: { color: theme('colors.moonlight.green.900') },
             },
             h1: {
               fontWeight: '700',
@@ -159,8 +159,7 @@ module.exports = {
               color: theme('colors.gray.900'),
             },
             pre: {
-              backgroundColor: theme('colors.gray.100'),
-              color: theme('colors.gray.900'),
+              backgroundColor: theme('colors.moonlight.gray.500'),
             },
             code: {
               color: theme('colors.moonlight.pink.700'),
