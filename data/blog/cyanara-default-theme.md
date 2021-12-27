@@ -12,7 +12,7 @@ layout: PostLayout
 
 It's only been one day, but I've already done a sneaky little update to the entire website. The entire colour palette!
 
-<iframe src="https://giphy.com/embed/Z2u1rkERW1Ohy" width="480" height="425" style={{margin: "0 auto"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cartoon-creepy-aph-america-Z2u1rkERW1Ohy">via GIPHY</a></p>
+<div style={{width: "100%", maxWidth: "400px", margin: "0 auto"}}><div style={{width: "100%", height: 0, paddingBottom: "88%", position: "relative"}}><iframe src="https://giphy.com/embed/Z2u1rkERW1Ohy" width="100%" height="100%" style={{position:"absolute"}} frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></div><p><a href="https://giphy.com/gifs/cartoon-creepy-aph-america-Z2u1rkERW1Ohy">via GIPHY</a></p>
 
 Interested in how I went about designing implementing the theme? No? Great! I will still explain regardless 😝.
 
