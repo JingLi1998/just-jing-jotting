@@ -7,10 +7,12 @@ const siteMetadata = require('../data/siteMetadata')
   const prettierConfig = await prettier.resolveConfig('./.prettierrc.js')
   const pages = await globby([
     'pages/*.js',
+    'pages/*.tsx',
     'data/blog/**/*.mdx',
     'data/blog/**/*.md',
     'public/tags/**/*.xml',
     '!pages/_*.js',
+    '!pages/_*.tsx',
     '!pages/api',
   ])
 
@@ -24,6 +26,7 @@ const siteMetadata = require('../data/siteMetadata')
                   .replace('data/blog', '/blog')
                   .replace('public/', '/')
                   .replace('.js', '')
+                  .replace('.tsx', '')
                   .replace('.mdx', '')
                   .replace('.md', '')
                   .replace('/feed.xml', '')
